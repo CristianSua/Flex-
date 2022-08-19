@@ -1,0 +1,166 @@
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+main, .index{
+    display: flex;
+    border:1px solid rgb(0, 0, 0);
+    flex-basis: 12rem;
+}
+.index{display: flex;
+  
+  justify-content: center;
+}
+
+
+main{
+    border: 2px solid green;
+    flex-grow: 1;
+}
+
+header{
+    border: 2px solid gainsboro;
+background-color:gray;
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    border: 2px solid yellow;
+    background: rgb(214, 49, 49);
+
+}
+main, .index{
+    display: flex; /*define el display tipo elegido como columna en body*/
+    border: 2px solid brown;/*Da borde a bueno usted sabe*/
+    flex-basis: 5rem; /*ajusta el anchor del index ya que asi lo nombro usted "index*/
+    background-color: gainsboro;
+    justify-content: center;
+}
+.article{
+    display: flex;
+    border: 2px solid gray;
+    flex-grow: 1;/*rellena el espacio que queda em main*/
+    background-color: gainsboro;
+}
+
+a {
+    display: inline-block;
+    width: 50px;
+    text-decoration: none;
+    font-family: Verdana;
+    list-style: none;
+    color: blue;
+  }
+  nav, scroll-container {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 239px;
+    padding: 3px;
+    border: 1px solid gray;
+    justify-content: center;
+  }
+  
+.opc{
+  border: 50px solid rgb(255, 6, 6);
+  border-radius: 100%;
+  background-color: rgb(221, 50, 50);
+  width:5px;
+  height: 10px;
+}
+
+
+
+main, .shop{
+    display: flex;
+    border: 2px solid brown;
+    flex-basis: 12rem;
+    background-color: gainsboro;
+
+}
+
+
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.op{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nav{
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    width: 1470px;
+    flex-basis: 100px;
+
+}
+.nav0{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.boton{
+    width: 150px;
+}
+
+.barra{
+    width: 700px;
+}
+
+.articles{
+    display: flex;
+    height: 35rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+article{
+    min-width: 300px;
+    border: 1px solid;
+    margin: 5px;
+    display: flex;
+    height: 200px;
+}
+
+div{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.asi1{
+    border: 1px solid;
+    margin: 5px;
+    width: 250px;
+}
+
+.main{
+    margin: 5px; 
+    flex-grow: 1;  
+}
+
+.asi2{
+    border: 1px solid;
+    margin: 5px;
+    width: 450px;
+}
